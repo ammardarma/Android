@@ -1,10 +1,40 @@
 {
-
 "mamalia" : 
 [
+  
   {
+    "id" : "1",
   "nama" : "Anjing",
-  "gambar" : "http://p2kp.stiki.ac.id/_sepakbola/_baca_image.php?td=5&kodegb=250px-Wikilabrador_jardin.jpg",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+ "namaLatin" : "Canis lupus familiaris",
+  "status" : "Hewan Peliharaan",
+  "jenisMakanan" : "Karnivora dan Omnivora",
+"jenisSpesies" : "Pomeranian, Poodle, Shih tzu, Chi hua hua, Maltese, Yorkshire (Yorkie), Pekingese, Beagle",
+"pesebaran" : "Seluruh dunia", 
+"makananKesukaan" : "Daging, Sayuran, Makanan Anjing",
+"Deskripsi" : "Anjing adalah mamalia yang telah mengalami domestikasi dari serigala sejak 15.000 tahun yang lalu atau mungkin sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA. Penelitian lain mengungkap sejarah domestikasi anjing yang belum begitu lama. Anjing adalah hewan sosial sama seperti halnya manusia. Kedekatan pola perilaku anjing dengan manusia menjadikan anjing bisa dilatih, diajak bermain, tinggal bersama manusia, dan diajak bersosialiasi dengan manusia dan anjing yang lain. Anjing memiliki kedudukan unik dalam hubungan antarspesies. Kesetiaan dan pengabdian yang ditunjukkan anjing paling mirip dengan pemikiran manusia mengenai cinta dan persahabatan. Walaupun sudah adalah naluri alami anjing sebagai hewan kelompokan, pemilik anjing paling menghargai kesetiaan dan pengabdian anjing dan mengasumsikannya sebagai anggota keluarga sendiri. Anjing kesayangan bahkan sering mencapai diberi nama keluarga yang sama seperti nama pemiliknya. Sebaliknya, anjing mengasumsikan manusia sebagai anggota kelompokannya. Anjing hanya sedikit membedakan kedudukan sang pemilik dengan rekan anjing yang masih satu kelompokan, dan bahkan sering tidak membedakannya sama sekali."
+  }, 
+  {
+  "id" : "2",
+  "nama" : "Berang-Berang",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+  "namaLatin" : "Lutrinae",
+  "status" : "Hewan Peliharaan/Hewan Jinak",
+  "jenisMakanan" : "Karnivora",
+"jenisSpesies" : "Berang-berang pantai, Berang-berang sumatra, Berang-berang kanada, Berang-berang amerika, Berang-berang neotropis, Berang-berang afrika, Berang-berang laut ",
+"pesebaran" : "Seluruh Dunia kecuali Benua Australia", 
+"makananKesukaan" : "Daging",
+"Deskripsi" : "Berang-berang adalah salah satu jenis satwa unik dan bentuknya lucu. Hewan ini mempunyai ciri fisik yang seperti musang. Habitat hidupnya berada di dekat aliran sungai dan laut. Binatang ini tersebar hampir di seluruh dunia kecuali Benua Australia. Jenis berang-berang dibagi menjadi dua kelompok, yaitu Otter dan Beaver. Dari dua kelompok tersebut dibagi kembali menjadi 13 jenis. Di Indonesia hidup 4 jenis berang-berang dari total 13 jenis yang ada di dunia. 13 jenis tersebut masuk ke dalam beberapa genus yang berbeda-beda. Untuk spesies yang hidup di Indonesia berasal dari tiga genus, yaitu Lutra, Lutrogale, dan Aonyx. "
+  }
+  
+],
+  "aves" : 
+[
+  
+  {
+  "id" : "1",
+  "nama" : "Anjing",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
  "namaLatin" : "Canis lupus familiaris",
   "status" : "Hewan Peliharaan",
   "jenisMakanan" : "Karnivora dan Omnivora",
@@ -15,8 +45,9 @@
   }, 
  
   {
+  "id" : "2",
   "nama" : "Berang-Berang",
-  "gambar" : "http://p2kp.stiki.ac.id/_sepakbola/_baca_image.php?td=9&kodegb=200px-Fischotter_Lutra_Lutra.jpg",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
   "namaLatin" : "Lutrinae",
   "status" : "Hewan Peliharaan/Hewan Jinak",
   "jenisMakanan" : "Karnivora",
@@ -25,6 +56,93 @@
 "makananKesukaan" : "Daging",
 "Deskripsi" : "Berang-berang adalah salah satu jenis satwa unik dan bentuknya lucu. Hewan ini mempunyai ciri fisik yang seperti musang. Habitat hidupnya berada di dekat aliran sungai dan laut. Binatang ini tersebar hampir di seluruh dunia kecuali Benua Australia. Jenis berang-berang dibagi menjadi dua kelompok, yaitu Otter dan Beaver. Dari dua kelompok tersebut dibagi kembali menjadi 13 jenis. Di Indonesia hidup 4 jenis berang-berang dari total 13 jenis yang ada di dunia. 13 jenis tersebut masuk ke dalam beberapa genus yang berbeda-beda. Untuk spesies yang hidup di Indonesia berasal dari tiga genus, yaitu Lutra, Lutrogale, dan Aonyx. "
   }
+  
+], 
+  "pisces" : 
+[
+  
+  {
+   "id" : "1",
+  "nama" : "Anjing",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+ "namaLatin" : "Canis lupus familiaris",
+  "status" : "Hewan Peliharaan",
+  "jenisMakanan" : "Karnivora dan Omnivora",
+"jenisSpesies" : "Pomeranian, Poodle, Shih tzu, Chi hua hua, Maltese, Yorkshire (Yorkie), Pekingese, Beagle",
+"pesebaran" : "Seluruh dunia", 
+"makananKesukaan" : "Daging, Sayuran, Makanan Anjing",
+"Deskripsi" : "Anjing adalah mamalia yang telah mengalami domestikasi dari serigala sejak 15.000 tahun yang lalu atau mungkin sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA. Penelitian lain mengungkap sejarah domestikasi anjing yang belum begitu lama. Anjing adalah hewan sosial sama seperti halnya manusia. Kedekatan pola perilaku anjing dengan manusia menjadikan anjing bisa dilatih, diajak bermain, tinggal bersama manusia, dan diajak bersosialiasi dengan manusia dan anjing yang lain. Anjing memiliki kedudukan unik dalam hubungan antarspesies. Kesetiaan dan pengabdian yang ditunjukkan anjing paling mirip dengan pemikiran manusia mengenai cinta dan persahabatan. Walaupun sudah adalah naluri alami anjing sebagai hewan kelompokan, pemilik anjing paling menghargai kesetiaan dan pengabdian anjing dan mengasumsikannya sebagai anggota keluarga sendiri. Anjing kesayangan bahkan sering mencapai diberi nama keluarga yang sama seperti nama pemiliknya. Sebaliknya, anjing mengasumsikan manusia sebagai anggota kelompokannya. Anjing hanya sedikit membedakan kedudukan sang pemilik dengan rekan anjing yang masih satu kelompokan, dan bahkan sering tidak membedakannya sama sekali."
+  }, 
+  {
+   "id" : "2",
+  "nama" : "Berang-Berang",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+  "namaLatin" : "Lutrinae",
+  "status" : "Hewan Peliharaan/Hewan Jinak",
+  "jenisMakanan" : "Karnivora",
+"jenisSpesies" : "Berang-berang pantai, Berang-berang sumatra, Berang-berang kanada, Berang-berang amerika, Berang-berang neotropis, Berang-berang afrika, Berang-berang laut ",
+"pesebaran" : "Seluruh Dunia kecuali Benua Australia", 
+"makananKesukaan" : "Daging",
+"Deskripsi" : "Berang-berang adalah salah satu jenis satwa unik dan bentuknya lucu. Hewan ini mempunyai ciri fisik yang seperti musang. Habitat hidupnya berada di dekat aliran sungai dan laut. Binatang ini tersebar hampir di seluruh dunia kecuali Benua Australia. Jenis berang-berang dibagi menjadi dua kelompok, yaitu Otter dan Beaver. Dari dua kelompok tersebut dibagi kembali menjadi 13 jenis. Di Indonesia hidup 4 jenis berang-berang dari total 13 jenis yang ada di dunia. 13 jenis tersebut masuk ke dalam beberapa genus yang berbeda-beda. Untuk spesies yang hidup di Indonesia berasal dari tiga genus, yaitu Lutra, Lutrogale, dan Aonyx. "
+  }
+  
+], 
+  "amfibi" : 
+[
+  
+  {
+  "id" : "1",
+  "nama" : "Anjing",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+ "namaLatin" : "Canis lupus familiaris",
+  "status" : "Hewan Peliharaan",
+  "jenisMakanan" : "Karnivora dan Omnivora",
+"jenisSpesies" : "Pomeranian, Poodle, Shih tzu, Chi hua hua, Maltese, Yorkshire (Yorkie), Pekingese, Beagle",
+"pesebaran" : "Seluruh dunia", 
+"makananKesukaan" : "Daging, Sayuran, Makanan Anjing",
+"Deskripsi" : "Anjing adalah mamalia yang telah mengalami domestikasi dari serigala sejak 15.000 tahun yang lalu atau mungkin sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA. Penelitian lain mengungkap sejarah domestikasi anjing yang belum begitu lama. Anjing adalah hewan sosial sama seperti halnya manusia. Kedekatan pola perilaku anjing dengan manusia menjadikan anjing bisa dilatih, diajak bermain, tinggal bersama manusia, dan diajak bersosialiasi dengan manusia dan anjing yang lain. Anjing memiliki kedudukan unik dalam hubungan antarspesies. Kesetiaan dan pengabdian yang ditunjukkan anjing paling mirip dengan pemikiran manusia mengenai cinta dan persahabatan. Walaupun sudah adalah naluri alami anjing sebagai hewan kelompokan, pemilik anjing paling menghargai kesetiaan dan pengabdian anjing dan mengasumsikannya sebagai anggota keluarga sendiri. Anjing kesayangan bahkan sering mencapai diberi nama keluarga yang sama seperti nama pemiliknya. Sebaliknya, anjing mengasumsikan manusia sebagai anggota kelompokannya. Anjing hanya sedikit membedakan kedudukan sang pemilik dengan rekan anjing yang masih satu kelompokan, dan bahkan sering tidak membedakannya sama sekali."
+  }, 
+  {
+  "id" : "2",
+  "nama" : "Berang-Berang",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+  "namaLatin" : "Lutrinae",
+  "status" : "Hewan Peliharaan/Hewan Jinak",
+  "jenisMakanan" : "Karnivora",
+"jenisSpesies" : "Berang-berang pantai, Berang-berang sumatra, Berang-berang kanada, Berang-berang amerika, Berang-berang neotropis, Berang-berang afrika, Berang-berang laut ",
+"pesebaran" : "Seluruh Dunia kecuali Benua Australia", 
+"makananKesukaan" : "Daging",
+"Deskripsi" : "Berang-berang adalah salah satu jenis satwa unik dan bentuknya lucu. Hewan ini mempunyai ciri fisik yang seperti musang. Habitat hidupnya berada di dekat aliran sungai dan laut. Binatang ini tersebar hampir di seluruh dunia kecuali Benua Australia. Jenis berang-berang dibagi menjadi dua kelompok, yaitu Otter dan Beaver. Dari dua kelompok tersebut dibagi kembali menjadi 13 jenis. Di Indonesia hidup 4 jenis berang-berang dari total 13 jenis yang ada di dunia. 13 jenis tersebut masuk ke dalam beberapa genus yang berbeda-beda. Untuk spesies yang hidup di Indonesia berasal dari tiga genus, yaitu Lutra, Lutrogale, dan Aonyx. "
+  }
+    
+], 
+  "reptil" : 
+[
+  
+  {
+  "id" : "1",
+  "nama" : "Anjing",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+ "namaLatin" : "Canis lupus familiaris",
+  "status" : "Hewan Peliharaan",
+  "jenisMakanan" : "Karnivora dan Omnivora",
+"jenisSpesies" : "Pomeranian, Poodle, Shih tzu, Chi hua hua, Maltese, Yorkshire (Yorkie), Pekingese, Beagle",
+"pesebaran" : "Seluruh dunia", 
+"makananKesukaan" : "Daging, Sayuran, Makanan Anjing",
+"Deskripsi" : "Anjing adalah mamalia yang telah mengalami domestikasi dari serigala sejak 15.000 tahun yang lalu atau mungkin sudah sejak 100.000 tahun yang lalu berdasarkan bukti genetik berupa penemuan fosil dan tes DNA. Penelitian lain mengungkap sejarah domestikasi anjing yang belum begitu lama. Anjing adalah hewan sosial sama seperti halnya manusia. Kedekatan pola perilaku anjing dengan manusia menjadikan anjing bisa dilatih, diajak bermain, tinggal bersama manusia, dan diajak bersosialiasi dengan manusia dan anjing yang lain. Anjing memiliki kedudukan unik dalam hubungan antarspesies. Kesetiaan dan pengabdian yang ditunjukkan anjing paling mirip dengan pemikiran manusia mengenai cinta dan persahabatan. Walaupun sudah adalah naluri alami anjing sebagai hewan kelompokan, pemilik anjing paling menghargai kesetiaan dan pengabdian anjing dan mengasumsikannya sebagai anggota keluarga sendiri. Anjing kesayangan bahkan sering mencapai diberi nama keluarga yang sama seperti nama pemiliknya. Sebaliknya, anjing mengasumsikan manusia sebagai anggota kelompokannya. Anjing hanya sedikit membedakan kedudukan sang pemilik dengan rekan anjing yang masih satu kelompokan, dan bahkan sering tidak membedakannya sama sekali."
+  }, 
+  {
+  "id" : "2",
+  "nama" : "Berang-Berang",
+  "gambar" : "https://upload.wikimedia.org/wikipedia/id/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+  "namaLatin" : "Lutrinae",
+  "status" : "Hewan Peliharaan/Hewan Jinak",
+  "jenisMakanan" : "Karnivora",
+"jenisSpesies" : "Berang-berang pantai, Berang-berang sumatra, Berang-berang kanada, Berang-berang amerika, Berang-berang neotropis, Berang-berang afrika, Berang-berang laut ",
+"pesebaran" : "Seluruh Dunia kecuali Benua Australia", 
+"makananKesukaan" : "Daging",
+"Deskripsi" : "Berang-berang adalah salah satu jenis satwa unik dan bentuknya lucu. Hewan ini mempunyai ciri fisik yang seperti musang. Habitat hidupnya berada di dekat aliran sungai dan laut. Binatang ini tersebar hampir di seluruh dunia kecuali Benua Australia. Jenis berang-berang dibagi menjadi dua kelompok, yaitu Otter dan Beaver. Dari dua kelompok tersebut dibagi kembali menjadi 13 jenis. Di Indonesia hidup 4 jenis berang-berang dari total 13 jenis yang ada di dunia. 13 jenis tersebut masuk ke dalam beberapa genus yang berbeda-beda. Untuk spesies yang hidup di Indonesia berasal dari tiga genus, yaitu Lutra, Lutrogale, dan Aonyx. "
+  }
+  
 ]
-
 }
