@@ -63,16 +63,29 @@
             android:gravity="center"
             android:textSize="13sp"
             android:textStyle="bold"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="OTHER ITEMS"
-            android:layout_weight="0.5"
             android:layout_gravity="bottom"
             android:layout_marginBottom="3dp"
-            android:gravity="center"
+            android:layout_weight="0.5"
+            android:gravity="right"
+            android:text="OTHER ITEMS"
             android:textSize="13sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FFA701"
+            android:src="@android:drawable/ic_dialog_email"
+            app:elevation="6dp"
+            app:pressedTranslationZ="12dp" />
 
     </LinearLayout>
 
@@ -83,5 +96,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/navigation_menu"/>
+    
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
