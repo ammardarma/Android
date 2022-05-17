@@ -19,7 +19,12 @@
         <activity android:name=".loginform" />
         <activity android:name=".newstaffform" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".MainActivity1">
+        <activity android:name=".MainActivity1" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity2" />
+
+        <activity android:name=".ActivityFirst">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

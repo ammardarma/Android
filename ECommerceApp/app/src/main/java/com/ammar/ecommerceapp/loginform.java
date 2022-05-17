@@ -39,7 +39,7 @@ public class loginform extends AppCompatActivity {
                     //login berhasil
                     Toast.makeText(getApplicationContext(), "Login Sukses",
                             Toast.LENGTH_SHORT) .show();
-                    Intent intent = new Intent(loginform.this,MainActivity.class);
+                    Intent intent = new Intent(loginform.this, MainActivity1.class);
                     loginform.this.startActivity(intent);
                     finish();
                 }else{
