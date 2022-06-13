@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rectangle_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_2"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="20dp"
+    android:paddingBottom="25dp"
+    tools:context=".ticket_item">
+
+    <RelativeLayout
+        android:id="@+id/rectangle"
+        android:layout_width="343dp"
+        android:layout_height="39dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="23 JUL 2019. 17:35"
+            android:textAppearance="@style/sub_header"
+            android:lineSpacingExtra="10sp"
+            android:translationY="-4.8sp"
+            android:gravity="top"
+            android:fontFamily="@font/nunito_sans_extrabold"/>
+
+        <TextView
+            android:id="@+id/book_no_230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="193dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/book_no_230"
+            android:textAppearance="@style/sub_header"
+            android:lineSpacingExtra="10sp"
+            android:translationY="-4.8sp"
+            android:gravity="right|top"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            />
+
+        <TextView
+            android:id="@+id/bookNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/book_no_230"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_sans_light"
+            android:lineSpacingExtra="10sp"
+            android:text="230719-0001"
+            android:textAppearance="@style/sub_header"
+            android:translationY="-4.8sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/poName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="57dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:text="@string/sempati_star"
+        android:textAppearance="@style/sempati_sta"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/poNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="57dp"
+        android:fontFamily="@font/lato"
+        android:gravity="top"
+        android:lineSpacingExtra="10sp"
+        android:text="@string/p_1923_nm"
+        android:textAppearance="@style/mini_character"
+        android:translationY="4.8sp"
+         />
+
+    <TextView
+        android:id="@+id/startAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:text="@string/some_id"
+        android:textAppearance="@style/big_character"
+        android:gravity="right|top"
+        />
+
+    <TextView
+        android:id="@+id/startTerminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp"
+        android:fontFamily="@font/lato"
+        android:text="@string/terminal_am"
+        android:textAppearance="@style/mini_character"
+        android:lineSpacingExtra="10sp"
+        android:translationY="5.3sp"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/endTerminal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:text="Medan"
+        android:textAppearance="@style/mini_character"
+        android:lineSpacingExtra="5.3sp"
+        android:gravity="top"
+        />
+    
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="224dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:src="@drawable/ceklis"/>
+
+    <TextView
+        android:id="@+id/statusPembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="245dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:text="Issued"
+        android:textAppearance="@style/issued"
+        android:gravity="top"
+        />
+
+
+</RelativeLayout>

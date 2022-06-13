@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    tools:context=".TicketDetail">
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="22dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="317dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/back_arrow"/>
+
+    <TextView
+        android:id="@+id/ticket_deta"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/ticket_detail"
+        android:fontFamily="@font/nunito_sans_extrabold"
+        android:textAppearance="@style/header"
+        />
+
+    <ImageButton
+        android:id="@+id/qrcode"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:src="@drawable/qrcode"
+        />
+
+    //FIRST BOX
+    <LinearLayout
+        android:id="@+id/first_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="94dp"
+        android:orientation="vertical"
+        android:background="@drawable/rectangle_2">
+
+        //BOOK NO AND DATE
+        <RelativeLayout
+        android:id="@+id/rectangle"
+        android:layout_width="343dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:id="@+id/dateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="23 JUL 2019. 17:35"
+            android:textAppearance="@style/sub_header"
+            android:lineSpacingExtra="10sp"
+            android:translationY="-4.8sp"
+            android:gravity="top"
+            android:fontFamily="@font/nunito_sans_extrabold"/>
+
+        <TextView
+            android:id="@+id/book_no_230"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="193dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/book_no_230"
+            android:textAppearance="@style/sub_header"
+            android:lineSpacingExtra="10sp"
+            android:translationY="-4.8sp"
+            android:gravity="right|top"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            />
+
+        <TextView
+            android:id="@+id/bookNumberDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/book_no_230"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_sans_light"
+            android:lineSpacingExtra="10sp"
+            android:text="230719-0001"
+            android:textAppearance="@style/sub_header"
+            android:translationY="-4.8sp" />
+    </RelativeLayout>
+
+        // NAME AND THE OTHER
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:id="@+id/rectangle_3"
+                android:layout_width="4dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="33dp"
+                android:src="@drawable/rectangle_4"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="32dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/name"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+            <TextView
+                android:id="@+id/nameDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="39dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:text="John Doe, 24"
+                android:textAppearance="@style/big_character"
+                android:gravity="top"/>
+
+            <LinearLayout
+                android:id="@+id/rating"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="267dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rectangle_6"
+                android:orientation="vertical"
+                android:elevation="25dp">
+                <ImageView
+                    android:layout_width="9dp"
+                    android:layout_height="9dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/star"
+                    />
+
+                <TextView
+                    android:id="@+id/ratingNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/nunito_sans_extrabold"
+                    android:gravity="center_horizontal|top"
+                    android:text="\?/5"
+                    android:textAppearance="@style/ratingNumber" />
+
+            </LinearLayout>
+
+          <ImageView
+              android:layout_width="344dp"
+              android:layout_height="1dp"
+              android:layout_alignParentLeft="true"
+              android:layout_marginLeft="-1dp"
+              android:layout_alignParentBottom="true"
+              android:layout_marginBottom="68dp"
+              android:src="@drawable/rectangle_3"/>
+
+            <TextView
+                android:id="@+id/phone_num"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="34dp"
+                android:fontFamily="@font/lato"
+                android:text="@string/phone_number"
+                android:textAppearance="@style/mini_character_detail"
+                android:lineSpacingExtra="10sp"
+                android:translationY="4.8sp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:text="@string/number_phone"
+                android:textAppearance="@style/some_id_2"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/seats"
+                android:layout_width="29dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="156dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="34dp"
+                android:fontFamily="@font/lato"
+                android:text="@string/seatstxt"
+                android:textAppearance="@style/mini_character_detail"
+                android:lineSpacingExtra="10sp"
+                android:translationY="4.8sp"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/seatsDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="156dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:text="2"
+                android:textAppearance="@style/some_id_2"
+                android:gravity="top"
+                />
+
+            <TextView
+                android:id="@+id/ticket_stat"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="232dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="92dp"
+                android:text="@string/ticket_status"
+                android:fontFamily="@font/lato"
+                android:textAppearance="@style/mini_character_detail"
+                android:lineSpacingExtra="10sp"
+                android:translationY="4.8sp"
+                android:gravity="top"
+                />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="232dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="117dp"
+                android:src="@drawable/ceklis"/>
+
+            <TextView
+                android:id="@+id/statusPembayaranDetail"
+                android:layout_width="43dp"
+                android:layout_height="19dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="258dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="116dp"
+                android:fontFamily="@font/nunito_sans_extrabold"
+                android:text="Issued"
+                android:textAppearance="@style/issued"
+                android:gravity="top"
+                />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    //SECOND BOX
+    <RelativeLayout
+        android:id="@+id/second_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="293dp"
+        android:background="@drawable/rectangle_7">
+
+        <TextView
+            android:id="@+id/po_name"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/po_name"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <ImageView
+            android:layout_width="4dp"
+            android:layout_height="36dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/rectangle_5"/>
+
+        <TextView
+            android:id="@+id/poNameDetail"
+            android:layout_width="99dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="39dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="@string/sempati_star"
+            android:textAppearance="@style/big_character"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/bus_no_"
+            android:layout_width="38dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="227dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/bus_no"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/poNumberDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="227dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="38dp"
+            android:fontFamily="@font/lato"
+            android:text="P 9123 NN"
+            android:textAppearance="@style/p_9123_nn"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/schedule"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="81dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/schedule"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/estimated_t"
+            android:layout_width="80dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="227dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="82dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/estimate_time"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/startAt"
+            android:layout_width="38dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="106dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="17:30"
+            android:textAppearance="@style/middle_character"
+            android:gravity="top"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="52dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="133dp"
+            android:background="@drawable/line"
+
+            />
+
+        <TextView
+            android:id="@+id/endAt"
+            android:layout_width="38dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="188dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="20:30"
+            android:textAppearance="@style/middle_character"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/startCity"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="106dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:textAllCaps="true"
+            android:text="Medan"
+            android:textAppearance="@style/middle_character"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/startTerminal"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="121dp"
+            android:fontFamily="@font/lato"
+            android:text="Terminal Amplas"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/startDate"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="140dp"
+            android:fontFamily="@font/lato"
+            android:text="@string/_23_juli_2020"
+            android:textAppearance="@style/jul_2019"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/endCity"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="188dp"
+            android:textAllCaps="true"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="PEKANBARU"
+            android:textAppearance="@style/middle_character"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/endTerminal"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="203dp"
+            android:fontFamily="@font/lato"
+            android:text="Terminal Bandaraya"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/endDate"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="88dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="222dp"
+            android:fontFamily="@font/lato"
+            android:text="24 Juli 2019"
+            android:textAppearance="@style/jul_2019"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+
+        <TextView
+            android:id="@+id/estimateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="227dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="106dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="14h45m"
+            android:textAppearance="@style/middle_character"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/seat_no_"
+            android:layout_width="42dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="227dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="164dp"
+            android:fontFamily="@font/lato"
+            android:text="Seat no"
+            android:textAppearance="@style/mini_character_detail"
+            android:lineSpacingExtra="10sp"
+            android:translationY="4.8sp"
+            android:gravity="top"
+            />
+
+        <TextView
+            android:id="@+id/seatsNo"
+            android:layout_width="33dp"
+            android:layout_height="19dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="227dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="188dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="9, 10"
+            android:textAppearance="@style/middle_character"
+            android:gravity="top"
+            />
+
+
+
+    </RelativeLayout>
+
+    //TOTAL BOX
+    <RelativeLayout
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/rectangle_total">
+
+        <TextView
+            android:id="@+id/totalTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="29dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Total"
+            android:textAppearance="@style/big_character_total"
+            />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="28dp"
+            android:fontFamily="@font/nunito_sans_extrabold"
+            android:text="Rp332.333,00"
+            android:textAppearance="@style/big_character_total"
+            android:gravity="top"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

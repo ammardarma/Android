@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bux App</string>
+    <string name="your_tickets">Your Tickets</string>
+    <string name="book_no_230">Book No.</string>
+    <string name="sempati_star">Sempati Star</string>
+    <string name="p_1923_nm">P 1923 NM</string>
+    <string name="some_id">02:30</string>
+    <string name="terminal_am">Terminal Amplas</string>
+    <string name="ticket_detail">Ticket Detail</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="number_phone">081211557242</string>
+    <string name="seatstxt">Seats</string>
+    <string name="ticket_status">Ticket Status</string>
+    <string name="po_name">PO Name</string>
+    <string name="bus_no">Bus no</string>
+    <string name="schedule">Schedule</string>
+    <string name="estimate_time">Estimate Time</string>
+    <string name="_23_juli_2020">23 Juli 2019</string>
+    <string name="ticket_qrcode">Ticket Qrcode</string>
+    <string name="back_to_detail">Back To Detail</string>
+    <string name="how_was_your_trip">How was your trip?</string>
+    <string name="please_give_your_rating">Please give your rating</string>
+</resources>
