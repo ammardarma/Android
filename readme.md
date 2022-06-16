@@ -1,5 +1,5 @@
 # Android Portofolio
-### Hello Fellas! This is my portofolio of Android Apps / Mobile Apps 
+Hello Fellas! This is my portofolio of Android Apps / Mobile Apps, Hopefully that will qualified your expectation.
 
 - [Animal Kingdom Android Apps](https://github.com/ammardarma/Animal-Kingdom-Mobile)
 - [BUX Android Apps](https://github.com/ammardarma)
