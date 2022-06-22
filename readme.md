@@ -2,7 +2,7 @@
 Hello Fellas! This is my portofolio of Android Apps / Mobile Apps, Hopefully that will qualified your expectation.
 
 - [Animal Kingdom Android Apps](https://github.com/ammardarma/Animal-Kingdom-Mobile)
-- [BUX Android Apps](https://github.com/ammardarma)
+- [BUX Android Apps](https://github.com/andififian/Ticket-Application-Mobile)
 - [Mechanical Calculator Android Apps](https://github.com/ammardarma/Mecha-Calculator-Apps)
 - [E-Commerce Android Apps](https://github.com/ammardarma/ECommerce-Apps)
 - [To-do List Android Apps](https://github.com/ammardarma/To---do-List-Apps)
