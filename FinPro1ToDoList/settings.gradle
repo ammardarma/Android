@@ -1,2 +1,0 @@
-include ':app'
-rootProject.name = "FinPro1 To Do List"
